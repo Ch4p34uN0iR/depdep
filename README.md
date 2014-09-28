@@ -23,6 +23,7 @@ There is tika binary in the script directory. In order to run tika, java must be
 ```
 Then you must download tika from internet and run like below. You can download Apache Tika at *http://mvnrepository.com/artifact/org.apache.tika/tika-server*. Most recent version is 1.5 so that this version can be used to extract files. 
 ```
+ # cd /opt/tika
  # wget http://central.maven.org/maven2/org/apache/tika/tika-server/1.5/tika-server-1.5.jar  
  # /usr/bin/java -jar /opt/tika/tika-server-1.5.jar >/dev/null 2>/dev/null &  
 ```
