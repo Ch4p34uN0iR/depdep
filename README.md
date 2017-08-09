@@ -12,13 +12,12 @@ nmap -> to scan network and detect opened 445/tcp ports
 cifs-utils -> to mount windows shares from linux machine
 mount -> to mount and umount operations
 smbclient -> to list windows shares
-samba4-clients -> other operations for listing and accessing windows shares from linux machine
 findutils -> the find command utility
 curl -> to upload files to tika and get results
 For installation, you can use apt-get. For Kali Linux :
 
 ```
- #apt-get install nmap cifs-utils mount smbclient samba4-clients findutils curl
+ #apt-get install nmap cifs-utils mount smbclient findutils curl
 ```
 
 There is tika binary in the script directory. In order to run tika, java must be installed on the system. You can achieve this using apt-get like below;  
