@@ -7,7 +7,7 @@ Depdep is a merciless sentinel which will seek sensitive files containing critic
 The usage is easy and configurable, however, certain technical knowledge is necessary, such as using linux console, ability of writing and understanding basic regular expressions, tough the configuration file comes with several sensitive information patterns, etc.  
 
 ### Installation
-In order to run depdep succesfully, you have to install some packages. Packages needed to run depdep succesfully are shown below;  
+In order to run depdep succesfully, you have to install some packages. Packages needed to run depdep succesfully are shown below;  
 nmap -> to scan network and detect opened 445/tcp ports
 cifs-utils -> to mount windows shares from linux machine
 mount -> to mount and umount operations
