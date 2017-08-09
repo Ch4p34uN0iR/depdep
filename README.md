@@ -8,12 +8,6 @@ The usage is easy and configurable, however, certain technical knowledge is nece
 
 ### Installation
 In order to run depdep succesfully, you have to install some packages. Packages needed to run depdep succesfully are shown below;  
-nmap -> to scan network and detect opened 445/tcp ports
-cifs-utils -> to mount windows shares from linux machine
-mount -> to mount and umount operations
-smbclient -> to list windows shares
-findutils -> the find command utility
-curl -> to upload files to tika and get results
 For installation, you can use apt-get. For Kali Linux :
 
 ```
